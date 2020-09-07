@@ -1,0 +1,10 @@
+1. Top Node = Root Node
+2. Intermediate Node = Node
+3. Last Node = Leaf Node
+
+1. Top Node or Intermediate Node = parent
+2. Leaf Node = children
+
+1. Top node or Intermediate Node = ancestor
+
+1. Level start as 0 from Root Node and increase at it goes to leaf node.

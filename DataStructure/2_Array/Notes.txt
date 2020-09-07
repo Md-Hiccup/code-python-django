@@ -1,0 +1,8 @@
+Array is a type of data structure which store data in continuous memory.
+
+Insertion : O(n)
+Deletino  : O(n)
+
+
+Static Array:   Fixed number of size
+Dynamic Array:  No fixed size follow rule (2* size(array))

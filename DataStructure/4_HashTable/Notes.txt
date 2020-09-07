@@ -1,0 +1,7 @@
+Hash Table / Dictionary
+    -   Look up by key = O(1) on avg
+    -   Insertion/Deletion = O(1) on avg
+
+Collision Handling (multiple keys having same hash value , collision happens)
+    -   Chaining
+    -   Linear Probing (probing means searching)

@@ -1,0 +1,19 @@
+Stack
+    -   works in LIFO (last in first out)
+    -   Push/Pop element = O(1)
+    -   Search element by value = O(n)
+
+Use cases for stack
+    -   Function calling in any programming language is managed using a stack.
+    -   Undo (Ctrl + Z) functionality in any editor uses stack to track down last set of operations.
+
+class in python
+    -   list
+    -   collections.deque
+    -   queue.LifoQueue
+
+    Ex:
+        stk = deque()
+        stk.append(5)
+        stk.append(89)
+        stk.pop()   # returns 89

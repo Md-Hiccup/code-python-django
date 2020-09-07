@@ -1,0 +1,35 @@
+Data Structure
+    Ex:
+        Raw material of build home  +   Home building instructions  =   Home
+        Data Structure  +   Code Instructions   =   Software applicatoins
+
+    -   Data Structures are building blocks or raw material for any software programs.
+    -   Arrays, Linked List, Binary Tree are containers storing data in a specific memory layout.
+
+Big O
+    -   Big O notation is used to measure how running time or space requirements for your program grow as input size grows
+
+    Ex:
+        def foo(arr):
+            ....
+        size(arr) => 100    =>  0.22 ms
+        size(arr) => 10000   =>  2.30 ms
+
+    Rules:
+        1. Keep fastes growing term
+            -   time = a*n + b    -->     time = a*n  (as b is constants)
+        2. Drop constants
+            -   time = O(n)
+
+        Big O refers to very large value of n. Hence if you have a function like,
+            time = 5*n^2 + 3*n + 20     -->     time = O(n^2)
+        when value of n is very large b*n + c become irrevalant
+        Ex: n = 1000
+        time = 5*1000^2 + 3*1000 + 20
+        time = 5000000 + 3020
+
+    Measuring Running time growth   :   time complexity
+    Measuring Space growth          :   space complexity
+
+    Ex: Binary Search
+        k = O(log n)    --> log(2, 8)   --> log(2, 2^3) --> 3*log(2, 2) --> 3 iterations

@@ -1,0 +1,35 @@
+
+1. Binary Search Tree or BST.
+2. Every node has at most 2 child nodes.
+3. Elements are not duplicated or should be unique elements.
+4. Left node should always be less than of its parent node. (left_node.data < parent.data)
+5. Right node should always be greater than of its parent node. (right_node.data > parent.data)
+
+
+Search Complexity = O(log n)
+    Every iteration will reduced search space by 1/2
+    n=8         8 -> 4 -> 2 -> 1
+    3 iterations
+    log(2, 8) = 3
+
+Inserting Complexity = O(log n)
+
+Traversal Search
+                    15
+              12         27
+          7      14   20    88
+                        23
+    1. BFS
+    2. DFS
+        -   In order traversal  -   [7, 12, 14, 15, 20, 23, 27, 88]
+        -   Pre order traversal -   [15, 12, 7, 14, 27, 20, 23, 88]
+        -   post order traversal-   [7, 14, 12, 23, 20, 88, 27, 15]
+
+
+Deletion
+1. Delete node with no child (leaf node)
+2. Delete node with one child
+3. Delete node with two children
+    - copy minimum from right subtree
+    - copy maximum from left subtree
+    - remove duplicate node after moving

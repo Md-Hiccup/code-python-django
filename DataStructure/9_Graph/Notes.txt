@@ -1,0 +1,16 @@
+In tree there should be only one path between two nodes
+
+Directed Graph
+    -   There is a direction in the way two nodes are connected.
+    Ex: Flight routes between two cities
+    -   every node is giving direction to other node.
+Undirected Graph
+    -   There is no direction to how two nodes in the graph are connected.
+    Ex: Facebook connections
+
+Weighted Graph
+    -   every direct graph having weight on their edges.
+
+Find all paths
+Find shortest route
+

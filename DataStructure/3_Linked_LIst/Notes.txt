@@ -1,0 +1,17 @@
+In Array,
+    Insertion of element in middle took = O(n)
+        - because of copying elements to next array location after insertion.
+
+In linked list
+    -   Insert element at beginning = O(1)
+    -   Delete element at beginning = O(1)
+    -   Insert/Delete element at end = O(n)
+    -   Linked list traversal = O(n)
+    -   Accessing element by value = O(n)
+
+    Two benefits over an array
+        -   You don't need to pre-allocate space
+        -   Insertion is easier
+
+Doubly linked list
+    -   having 2 reference, 1 for prev and 1 for next.

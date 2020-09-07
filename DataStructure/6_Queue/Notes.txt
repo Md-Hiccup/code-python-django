@@ -1,0 +1,16 @@
+Queue:
+    Producer    -->  ... | data2 | data1    -->     Consumer
+
+    -   Queue is FIFO (first in first out)
+
+classes in python
+    -   list
+    -   collections.deque
+    -   queue.LifoQueue
+
+    Ex:
+        q = deque()
+        q.appendLeft(5)
+        q.appendLeft(89)
+        q.pop()     # returns 5
+
