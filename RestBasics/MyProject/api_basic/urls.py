@@ -1,9 +1,16 @@
 from django.urls import path, include
-from .views import article_list, article_detail, ArticleAPIView, ArticleDetails, GenericAPIView, GenericDetailAPIView, ArticleViewSet
+from .views import article_list, article_detail, ArticleAPIView, ArticleDetails, GenericAPIView, GenericDetailAPIView, ArticleViewSet, GenericViewSet, ModelViewSet
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register('article', ArticleViewSet, basename='article')
+#viewset
+#router.register('article', ArticleViewSet, basename='article')
+
+# generice viewset
+# router.register('article', GenericViewSet, basename='article')
+
+# model viewset
+router.register('article', ModelViewSet, basename='article')
 
 urlpatterns = [
     # function based view
