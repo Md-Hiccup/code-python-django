@@ -18,8 +18,8 @@ DATABASES = {
     }
 }
 
-STRIPE_PUBLIC_KEY = ''
-STRIPE_SECRET_KEY = ''
+STRIPE_PUBLIC_KEY = 'local-public-key'
+STRIPE_SECRET_KEY = 'local-secret-key'
 
 # DEBUG Toolbar Setting
 DEBUG_TOOLBAR_PANELS = [
