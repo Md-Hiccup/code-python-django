@@ -130,3 +130,7 @@ dmypy.json
 
 # pycharm workspace
 .idea/
+
+Django-Boilerplate/src/static_in_env
+Django-Boilerplate/env
+#Django-Boilerplate/.env
